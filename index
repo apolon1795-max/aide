@@ -1,0 +1,86 @@
+<style>
+    /* Стили для того, чтобы всё выглядело красиво и не ломало верстку сайта */
+    .ecosystem-wrapper {
+        font-family: 'Montserrat', sans-serif;
+        background-color: #f8f9fa;
+        color: #2b2b2b;
+        padding: 40px 0;
+    }
+    .container-custom {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    .btn-custom {
+        display: inline-block;
+        padding: 15px 35px;
+        background: linear-gradient(135deg, #4361ee, #4cc9f0);
+        color: white !important;
+        text-decoration: none;
+        font-weight: 600;
+        border-radius: 30px;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(67, 97, 238, 0.3);
+        border: none;
+        margin-top: 20px;
+    }
+    .btn-custom:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(67, 97, 238, 0.4); }
+    
+    .table-responsive { overflow-x: auto; margin-top: 30px; background: white; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
+    .styled-table { width: 100%; border-collapse: collapse; min-width: 600px; }
+    .styled-table thead { background-color: #4361ee; color: white; }
+    .styled-table th, .styled-table td { padding: 15px; border-bottom: 1px solid #ddd; text-align: left; }
+    .styled-table tbody tr:hover { background-color: #f1f4ff; }
+</style>
+
+<div class="ecosystem-wrapper">
+    <div class="container-custom">
+        <h2 style="text-align: center;">Актуальные вакансии</h2>
+        <div class="table-responsive">
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th>Наименование работы</th>
+                        <th>Возраст</th>
+                        <th>Зарплата</th>
+                        <th>График</th>
+                        <th>Работодатель</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Сборщик заказов</td><td>С 15-16 лет</td><td>От 35 000 ₽/мес</td><td>Полная занятость, гибкий график</td><td>Перекресток</td></tr>
+                    <tr><td>Сотрудник в доставку</td><td>С 15-16 лет</td><td>От 40 000 ₽/мес</td><td>Свободный</td><td>Премьер</td></tr>
+                    <tr><td>Начинающий специалист по продажам</td><td>С 15-16 лет</td><td>До 25 000 ₽/мес</td><td>Частичная занятость</td><td>ПАО Ростелеком</td></tr>
+                    <tr><td>Промоутер</td><td>С 15-16 лет</td><td>До 22 000 ₽/мес</td><td>Подработка: 4-6 часов</td><td>ПАО Ростелеком</td></tr>
+                    <tr><td>Копирайтер</td><td>С 15-16 лет</td><td>От 200 до 1200 ₽/час</td><td>Свободный, 3 ч в день</td><td>Workzilla, Kwork, FL.ru</td></tr>
+                    <tr><td>Начинающий специалист/курьер</td><td>С 15-16 лет</td><td>От 42 000 ₽/мес</td><td>Свободный</td><td>Премьер</td></tr>
+                    <tr><td>Кухонный работник</td><td>С 15-16 лет</td><td>От 30 000 ₽/мес</td><td>Свободный</td><td>ООО Кушать подано</td></tr>
+                    <tr><td>Работник торгового зала</td><td>С 15-16 лет</td><td>От 35 600 ₽/мес</td><td>Гибкий график</td><td>Пятерочка</td></tr>
+                    <tr><td>Сканировщик заказов на ПВЗ</td><td>С 15-16 лет</td><td>От 48 300 ₽/мес</td><td>Свободный</td><td>Сириус</td></tr>
+                    <tr><td>Курьер</td><td>С 15-16 лет</td><td>От 36 000 ₽/мес</td><td>Частичная занятость</td><td>Самокат</td></tr>
+                    <tr><td>Сотрудник на доставку</td><td>С 16 лет</td><td>От 600 до 1 000 ₽/час</td><td>Частичная занятость</td><td>IN-TIME</td></tr>
+                    <tr><td>Курьер с документами</td><td>С 16 лет</td><td>До 16 742 ₽ за смену</td><td>Свободный</td><td>ИП Конивец</td></tr>
+                    <tr><td>Продавец-консультант</td><td>С 16 лет</td><td>38 400 – 51 200 ₽/мес</td><td>Свободный</td><td>МАГНИТ</td></tr>
+                    <tr><td>Администратор чата</td><td>С 16 лет</td><td>30 000 – 50 000 ₽/мес</td><td>5/2</td><td>Wow Top Seller</td></tr>
+                    <tr><td>Курьер по доставке</td><td>С 16 лет</td><td>До 10 900 ₽ за смену</td><td>Свободный</td><td>Центр трудоустройства</td></tr>
+                    <tr><td>Оператор в ПВЗ Ozon</td><td>С 16 лет</td><td>До 2000 ₽ за смену</td><td>Свободный</td><td>Ozon</td></tr>
+                    <tr><td>Промоутер</td><td>С 14 лет</td><td>До 4 000 ₽ за смену</td><td>Свободный</td><td>ГК "Небеса"</td></tr>
+                    <tr><td>Курьер зоотоваров</td><td>С 16 лет</td><td>До 9 700 ₽ за смену</td><td>Свободный</td><td>Лавка Питомца</td></tr>
+                    <tr><td>Расклейка объявлений</td><td>С 16 лет</td><td>До 3 200 ₽ за смену</td><td>Частичная занятость</td><td>Правильный выбор</td></tr>
+                    <tr><td>Расклейщик</td><td>С 16 лет</td><td>25 000 — 35 000 ₽</td><td>Свободный</td><td>Ростелеком</td></tr>
+                    <tr><td>Почтальон</td><td>С 16 лет</td><td>От 1 600 ₽ за смену</td><td>Свободный</td><td>Агентство "Йожик"</td></tr>
+                    <tr><td>Работник на выкладку</td><td>С 16 лет</td><td>До 1 522 ₽ за смену</td><td>Свободный</td><td>ГРЕЙ ТЕК</td></tr>
+                    <tr><td>Работник торгового зала</td><td>С 16 лет</td><td>От 1 700 ₽ за смену</td><td>Свободный</td><td>ЭВРИКА</td></tr>
+                    <tr><td>Администратор салона</td><td>С 14 лет</td><td>От 3 000 ₽ за смену</td><td>Свободный</td><td>BestHome</td></tr>
+                    <tr><td>Продавец-консультант</td><td>С 16 лет</td><td>До 2 800 ₽ за смену</td><td>Гибкий</td><td>Моя смена</td></tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div style="text-align: center; margin-top: 40px;">
+            <h3>Хочешь узнать больше?</h3>
+            <p>Читай полезные статьи и инструкции по безопасному трудоустройству.</p>
+            <a href="https://profagregator.tilda.ws/page" target="_blank" class="btn-custom">Читать статьи</a>
+        </div>
+    </div>
+</div>
